@@ -1,0 +1,3 @@
+# litecli
+
+The litecli package
