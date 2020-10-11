@@ -2,7 +2,7 @@
 %global pypi_name litecli
 
 Name:           %{pypi_name}
-Version:        1.3.2
+Version:        1.4.1
 Release:        1%{?dist}
 Summary:        CLI for SQLite databases
 
@@ -60,5 +60,8 @@ PYTHONPATH=%{buildroot}%{python3_sitelib} pytest-%{python3_version} -v tests
 %{python3_sitelib}/%{pypi_name}-%{version}-py%{python3_version}.egg-info
 
 %changelog
+* Sun Oct 11 17 2020 José Lemos Neto <LemosJoseX@protonmail.com - 1.4.1-1
+- Update to version 1.4.1
+
 * Tue Jul 14 2020 Fabian Affolter <mail@fabian-affolter.ch> - 1.3.2-1
 - Initial package for Fedora
